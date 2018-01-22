@@ -1,0 +1,34 @@
+
+<div class="login">
+		<header>
+			  <div class="bar bar-header shopping_header">
+				  <button class="button icon ion-chevron-left shopping_header_btn" ng-click="goBack()"></button>
+				  <h1 class="title sopping_header_title">登录</h1>
+				</div>
+		</header>
+		<div class="login_main">
+					 <div class="banner">
+							<img ng-src="./images/icon/mycenter_iconheader.png "/>
+					 </div>
+						<div class="list list-inset login_user">
+							  <label class="item item-input login_label">
+							    <i class="icon ion-ios-person placeholder-icon"></i>
+							    <input type="text" placeholder="手机号/邮箱/用户名" ng-model="userInfo.phone"/>
+							  </label>
+							  <label class="item item-input">
+							    <i class="icon ion-ios-locked-outline placeholder-icon"></i>
+							    <input type="password" placeholder="密码" ng-model="userInfo.pwd"/>
+							  </label>
+							  <span class="fr" ng-click="forget()">忘记密码？</span>
+								<button class="button button-full " ng-click='login()'>登录</button>
+								<button class="button button-full button-stable" ng-click='register()'>注册</button>
+								<p>关联社交帐号快速登录</p>
+						</div>
+						<div class="row login_footer">
+								<div class="col col-33" ng-repeat='key in footers'><img ng-src="{{key}}" alt="" /></div>
+						</div>
+			</div>
+	</div>
+	
+
+

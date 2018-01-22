@@ -1,0 +1,48 @@
+
+	<div class="address" >
+		<header>
+		  <div class="bar bar-header shopping_header" ng-repeat="item in address_header">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.cutOff}}</h1>
+			</div>
+		</header>
+		<div class="address_main">
+				<div class="row address_row" ng-repeat="item in address_main track by $index">
+						<div class="col col-10 address_lineHeight">
+							<input type="checkbox" value="" ng-model="choice"/>
+						</div>
+						<div class="col col-80">
+								<div class="dis">{{item.name}}</div>
+								<span>{{item.phone}}</span>
+								<span class="default" ng-show="choice"> {{item.adderss_default}}</span>
+								<p>{{item.addre}}</p>
+								<div ng-show="item.isEdit">
+									<button class="button icon-left ion-ios-trash-outline" 
+									ng-click="cutOff($index)">{{item.delete}}</button>
+									<button class="button icon-left ion-ios-copy-outline" 
+									ng-click="showning()" >{{item.edit}}</button>
+								</div>
+						</div>
+						<div class="col col-10 address_lineHeight">
+								<i class="icon ion-ios-browsers-outline" ng-click="piont(item)"></i>
+						</div>
+
+				</div>
+
+
+
+				<button class="button button-full button-positive" ng-repeat="item in addadress" 
+				ng-click="appending()">{{item.add}}
+				</button>
+
+		</div>
+
+       
+
+ 
+
+ 
+
+ 
+
+

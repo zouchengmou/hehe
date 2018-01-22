@@ -1,0 +1,19 @@
+
+	<div class="Loaing" ng-repeat="item in loaing_false" ng-app="LoadingApp">
+		<div class="header">
+				 <div class="bar bar-header shopping_header">
+					  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+					  <h1 class="title sopping_header_title">{{item.flases}}</h1>
+			 </div>
+		</div>
+		<div class="Loaing_main">
+				<div class="Loaing_banner">
+						<img ng-src="{{item.Loaing_banner}}">
+				</div>
+				<div class="Loaing_text">
+					<p>{{item.loaing_txt}}</p>
+					<button class="Laoing_btn">{{item.loaing_return}}</button>
+				</div>
+
+		</div>
+</div>

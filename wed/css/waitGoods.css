@@ -1,0 +1,48 @@
+html,body{
+	height: 100%;
+	overflow-y: auto;
+}
+.myOrder .myOrder_header a{
+	color:#938f8f;
+}
+.myOrder .myOrder_mian{
+	margin-top: 94px;
+}
+.myOrder .myOrder_mian .myOrder_production{
+	height:44px;
+	line-height: 44px;
+	border-bottom: 1px solid #938f8f;
+	width:100%;
+}
+.myOrder .myOrder_mian .myOrder_production>h3{
+	line-height: 44px;
+	margin: 0 20px ;
+}
+.myOrder .myOrder_production_list a{
+	width:100%;
+}
+.myOrder .myOrder_production_list a>p{
+	margin:10px 0;
+}
+.myOrder .myOrder_production_list a>h2{
+	font-size: 14px;
+}
+.myOrder .myOrder_production_list a>span{
+	font-size: 12px;
+	width: 50%;
+	text-align: center;
+}
+.myOrder .myOrder_production_list a>img{
+	max-height: 90px;
+	min-width: 90px;
+}
+
+.myOrder .myOrder_shopping div h5{
+	line-height: 50px;
+}
+.myOrder .myOrder_shopping button{
+	border:1px solid #938f8f;
+	background-color: #fff;
+	color: #938f8f;
+	border-radius: 8px;
+}

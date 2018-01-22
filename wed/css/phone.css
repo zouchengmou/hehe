@@ -1,0 +1,22 @@
+
+
+
+.phone .phone_main{
+	margin-top: 60px;
+}
+.phone .phone_list{
+	width: 50%;
+}
+.phone .phone_list .phone_middle_inputs>input{
+	width: 100%;
+	padding:0;
+	display: inline-block;
+}
+.phone .phone_list{
+	margin:0 0 0 10px;
+}
+.phone .phone_main button{
+	width: 30%;
+	height: 44px;
+	margin-left: 10px;
+}

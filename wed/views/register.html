@@ -1,0 +1,63 @@
+
+	<div class="register"> 
+		<header>
+		  <div class="bar bar-header shopping_header">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">注册</h1>
+			</div>
+		</header>
+		<form name="userForm" novalidate>
+
+			<div class="register_middle"> 
+				<div class="list list-inset">
+					<label class="item item-input">
+						<i class="icon ion-ios-person placeholder-icon"></i>
+						<input id="name" type="text" ng-model="info.userName" placeholder="请输入会员名称   6-10数字英文组合" />
+					</label>
+					
+				</div> 
+							<div class="list list-inset" >
+								  <label class="item item-input">
+								    <i class="icon ion-android-phone-portrait placeholder-icon"></i>
+								    <input type="text" ng-model="info.phone"  placeholder="请输入正确的手机号码" ng-keyup="isPhone()"/>
+								  </label>
+							</div>
+							<div class="list list-inset">
+								  <label class="item item-input register_middle_inputs">
+								    <i class="icon ion-android-list placeholder-icon"></i>
+								    <input type="text" ng-model="info.code" placeholder="请输入检验码" />
+								  </label>
+							</div>
+							<button class="button button-small button-positive register_btn"  ng-click="getCode()"  ng-disabled="isPass">
+							  获取验证码
+							</button>
+
+
+							<div class="list list-inset"> 
+							  <label class="item item-input">
+							    <i class="icon ion-android-lock placeholder-icon"></i>
+							    <input type="password" ng-model="info.pwd" placeholder="请输入6-12位密码" />
+							  </label>
+							</div>
+							<div class="list list-inset"> 
+							  <label class="item item-input">
+							    <i class="icon ion-android-lock placeholder-icon"></i>
+							    <input type="password" ng-model="info.repwd" placeholder="请在此确认密码" />
+							  </label>
+							</div>
+							<ul class="list">
+								<li class="item item-checkbox">
+									<a href="" >我同意所有条款协议</a>
+									<label class="checkbox checkbox-assertive">
+										<input type="checkbox" name="" ng-model="isCheck"/>
+										<div class="track">
+											<div class="handle"></div>
+										</div>
+									</label>
+								</li>
+							</ul>
+							<button class="button button-assertive button-block" ng-disabled="!isCheck" ng-click="register()">立即进入</button>
+							
+				 </div>
+		</form>
+</div>

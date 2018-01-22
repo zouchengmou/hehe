@@ -1,0 +1,38 @@
+angular.module('app')
+	.controller('confirmController',['$scope',function($scope){
+		$scope.Header = [
+		{
+			orderSure:'订单确认'
+		}
+		];
+		$scope.phone = [
+		{
+			name:'陈嘉杰',
+			phoneNmuber:'132****2556',
+			address:'广州市天河区车陂北街（2号大院）10栋501房'
+		}
+		];
+		$scope.list=[
+		{
+			listImg:'./images/confrimImg1.png',
+			money:'￥199.00'
+		},
+		{
+			listImg:'./images/confrimImg2.png',
+			money:'￥182.00'
+		},
+		{
+			listImg:'./images/comfrim2.png',
+			money:'￥118.00'
+		},
+		{
+			listImg:'./images/confrimImg.png',
+			money:'￥258.00'
+		}
+		];
+		$scope.number=[
+		{
+			four:'共4件'
+		}
+		]
+	}])

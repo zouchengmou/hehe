@@ -1,0 +1,32 @@
+
+	<div class="Logistics">
+		  <div class="bar bar-header shopping_header" ng-repeat="item in Logistics_header">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.details}}</h1>
+			  <a class="button icon-right ion-chatbubbles shopping_header_A"></a>
+		 </div>
+		<div class="Logistics_main">
+			<div class="Logistics_img" ng-repeat="item in Logistics_img">
+					<img ng-src="{{item.LogisticsImg}}" alt="">
+			</div>
+			<div class="Logistics_adress">
+			  <div class="Logistics_adress_list" ng-repeat="item in Submit">
+					<div class="Logistics_one">
+							<div class="Logistics_one_round"></div>
+					</div>
+					<div class="Logistics_two">
+						<p>{{item.order}}</p>
+						<p>{{item.wait}}</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+

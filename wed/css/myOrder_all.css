@@ -1,0 +1,55 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+.myOrder_all .myOrder_all_mian{
+	margin-top: 94px;
+}
+.myOrder_all .myOrder_OrderNumber{
+	margin-top: 10px;
+	width:100%;
+}
+.myOrder_all .myOrder_OrderNumber>h4{
+	padding:0 10px;
+}
+.myOrder_all .myOrder_all_list .money>.goods_sum{
+	color: #f22f4f;
+}
+.myOrder_all .myOrder_all_list .money>.goods_number{
+	color: #028173;
+}
+.myOrder_all .myOrder_all_list{
+	margin-bottom: 10px;
+}
+.myOrder_all .myOrder_production_list>a{
+	width: 100%;
+}
+.myOrder_all .myOrder_production_list>a>span{
+	font-size: 12px!important;
+}
+.myOrder_all .myOrder_all_list .money{
+	width:100%;
+}
+.myOrder_all .myOrder_all_list .cancel_order{
+	overflow: hidden;
+}
+.myOrder_all .myOrder_all_list .myOrder_all_row>p{
+	text-align: right;
+}
+.myOrder_all .myOrder_all_mian .myOrder_total{
+	margin-bottom: 20px;
+}
+.myOrder_all .myOrder_all_mian .myOrder_total h3{
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 40px;
+}
+.myOrder_all .myOrder_all_mian .myOrder_total>button{
+	width:30%;
+	height: 50px;
+	font-size: 20px;
+	background-color: #028173;
+}
+.myOrder_all .myOrder_all_mian .myOrder_shopping div h5{
+	line-height: 50px;
+}

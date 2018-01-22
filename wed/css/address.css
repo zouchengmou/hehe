@@ -1,0 +1,50 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+
+
+.address .address_main{
+	margin-top: 50px;
+	position: relative;
+}
+.address .address_main .address_row span{
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.address .address_main .address_row p{
+	margin:5px 0;
+	font-size:16px;
+}
+.address .address_main .address_lineHeight{
+	line-height: 60px;
+	font-size: 30px;
+
+}
+.address .address_main .address_lineHeight>div{
+	margin-top:25px;
+	width:20px;
+	height: 20px;
+	border: 1px solid #000;
+	border-radius: 50%;
+
+}
+.address .add_address{
+	width:100%;
+	height:100%;
+	background-color: #f4ecec;
+	z-index: 9999;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.address .add_address>button{
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.address .address_main .default{
+	color: red;
+	font-size: 20px;
+}

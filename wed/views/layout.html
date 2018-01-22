@@ -1,0 +1,13 @@
+<div>
+	
+
+
+		<div ui-view></div>
+		<!-- 首页底部 -->
+		<footer>
+				<ion-tabs class="tabs-icon-top">
+						<ion-tab ui-sref="{{item.round}}" title="{{item.home}}" icon-on="{{item.icon_on}}" icon-off="{{item.icon_off}}" ng-repeat='item in footer'></ion-tab>
+				</ion-tabs>
+		</footer>
+
+</div>

@@ -1,0 +1,24 @@
+<div class="phone">
+		<header>
+		  	<div class="bar bar-header shopping_header">
+				  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+				  <h1 class="title sopping_header_title">手机绑定</h1>
+			</div>
+		</header>
+		<form name="userForm">
+				<div class="phone_main">	
+						<div class="list list-inset phone_list dis" ng-class="{'has-error': userForm.phone.$error.pattern}">
+							  <label class="item item-input phone_middle_inputs">
+							    <i class="icon ion-android-list placeholder-icon"></i>
+							    <input type="text" ng-model="phone" ng-pattern="/^1[34578]\d{9}$/" name="phone" placeholder="输入手机号">
+							  </label>
+							  <p class="help-block" ng-show="userForm.phone.$error.pattern">请输入正确手机号</p>
+						</div>
+						<button class="button button-small button-positive register_btn" 
+						ng-disabled="userForm.phone.$error.pattern">
+						  获得验码
+						</button>
+				</div>
+		</form>
+		<button class="button button-full button-positive" ng-disabled="userForm.phone.$error.pattern" >确定绑定手机号</button>
+</div>

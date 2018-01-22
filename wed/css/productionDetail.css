@@ -1,0 +1,61 @@
+.production_detail .production_detail_header{
+	text-align: center;	
+	background-color: #028173;
+	color: #fff;
+}
+.production_detail .production_detail_header .icon_first{
+	text-align: left;
+}
+.production_detail .production_banner>ul>li{
+	width:60%;
+	margin:10px auto;
+}
+.production_detail .production_banner{
+	position: relative;
+}
+.production_detail .production_banner .production_banner_list{
+	width: 60px;
+	height: 30px;
+    background-color: #53bfb3;
+    text-align: center;
+	border-radius: 0 12px 12px 0;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+	position: absolute;
+	bottom: 0;
+	left:80%;
+}
+.production_detail .production_banner>ul>li{
+	border:1px solid #000;
+}
+.production_detail .production_details>span{
+	padding:0 10px;
+}
+.production_detail .production_details{
+	position: relative;
+}
+.production_detail .production_details .Give{
+	position: absolute;
+	top: 20px;
+	right:0;
+	color: #f7313b;
+}
+.production_detail .production_details .Open{
+	color: #028173;
+}
+.production_detail .production_details .money>span{
+	margin:5px 10px;
+}
+.production_detail .production_details .money span:nth-child(1){
+	color: #f2244b;
+}
+.production_detail .production_details .money span:nth-child(2){
+	color: #343535;
+}
+.production_detail .number>div{
+	width:50%;
+}
+.production_detail .number .sum{
+	margin:0 auto;
+}

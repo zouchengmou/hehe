@@ -1,0 +1,189 @@
+body{
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Microsoft YaHei';
+	min-width: 320px;
+ 	max-width: 768px;
+
+}
+
+p,ol,ul,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a,a:hover{
+	outline: none;
+	text-decoration: none;
+}
+button{
+	border:0;
+	padding: 0;
+}
+
+input{
+	outline: none;
+	padding: 0;
+    margin: 0;
+}
+
+img{
+	outline: none;
+	width: 100%;
+	display: block;
+}
+.mar{
+	margin-right: 10px;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+.dis{
+	display: inline-block;
+}
+i,span{
+	display: inline-block;
+}
+
+
+
+ .shopping_header{
+	background-color: #028173;
+}
+ .shopping_header_btn{
+	background-color: #028173;
+	color: #fff;
+}
+ .shopping_header_A{
+	background-color: #028173;
+	color: #fff;
+}
+ .sopping_header_title{
+	color: #fff;
+}
+.shopping .shopping_header{
+	background-color: #028173;
+}
+.shopping .shopping_header_btn{
+	background-color: #028173;
+	color: #fff;
+}
+.shopping .shopping_header_A{
+	background-color: #028173;
+	color: #fff;
+}
+.shopping .sopping_header_title{
+	color: #fff;
+}.shopping .shopping_header{
+	background-color: #028173;
+}
+.shopping .shopping_header_btn{
+	background-color: #028173;
+	color: #fff;
+}
+.shopping .shopping_header_A{
+	background-color: #028173;
+	color: #fff;
+}
+.shopping .sopping_header_title{
+	color: #fff;
+}
+
+
+
+
+.Health_product_new{
+	width:100%;
+	height:40px;
+	margin-top: 5px;
+	border-top:1px solid #e5e5e5;
+	padding-top: 10px;
+}
+.Health_product_new .Health_product{
+	height:20px;
+	width:80px;
+	text-align: center;
+	background-color: #f44a60;
+	color: #fff;
+	border-radius: 0 10px 10px 0;
+}
+.Health_product_new span{
+	width:40px;
+	border: 1px solid #f44a60;
+	color:#f44a60;
+	font-size: 14px;
+	border-radius: 6px;
+	background-color: #fff;
+	text-align: center;
+	margin-left: 15px;
+}
+.Health_product_new p{
+	display: inline-block;
+	color: #797577;
+	margin-left: 10px;
+}
+
+
+.rePayment{
+	margin-top: 50px;
+	padding:0 10px 10px 10px;
+
+}
+.rePayment .rePayment_middle{
+	border-bottom: 1px solid #aaaaaa;
+	padding:10px 0 20px 0;
+}
+.rePayment .rePayment_middle>div{
+	width:40%;
+	margin:0 auto;
+}
+.rePayment .rePayment_middle>h3{
+	text-align: center;
+}
+
+
+.rePayment .Order_information>h3{
+    margin:15px 0;
+}
+
+.rePayment .falsePay .rePayment_btn{
+	margin-top:30px;
+	width:100%;
+
+}
+.rePayment .falsePay .rePayment_btn>button:nth-child(1){
+	background-color: #f32a50;
+	color: #fff;
+	border-radius: 6px;
+	}
+.rePayment .falsePay .rePayment_btn>button:nth-child(2){
+	background-color:rgba(255,255,255,0.2);
+	color: #969091;
+	border: 1px solid #aaaaaa;
+	border-radius: 6px;
+}
+.rePayment .falsePay .rePayment_btn>button{
+	width:40%;
+	height:30px;
+	font-size: 16px;
+
+}
+.rePayment .rePayment_footer div{
+	width:100%;
+}
+.rePayment .rePayment_footer div a{
+	font-size: 12px;
+	width:100%;
+	border:0;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+    white-space: normal;
+}

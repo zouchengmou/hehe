@@ -1,0 +1,43 @@
+.mycoupon .mycoupon_main{
+	margin-top: 50px;
+}
+.mycoupon .mycoupon_list{
+	position: relative;
+}
+.mycoupon .mycoupon_list .mycoupon_text{
+	width:100%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.mycoupon .mycoupon_list .mycoupon_text>h4{
+	color: #fff;
+	margin:3px;
+}
+.mycoupon .mycoupon_list .mycoupon_text>h3{
+	color: #fff;
+}
+.mycoupon .mycoupon_main .mycoupon_use{
+	border:1px solid #028173;
+	color: #028173;
+	text-align: center;
+	height:100%;
+	font-size: 18px;
+	border-radius:10px;
+	position: relative;
+}
+@media screen and (min-width:359px){
+.mycoupon .mycoupon_main .mycoupon_use>p{
+	position: absolute;
+	top: 40%;
+	left:20%;
+     }
+  }
+ @media screen and (max-width:359px){
+.mycoupon .mycoupon_main .mycoupon_use>p{
+	position: absolute;
+	top: 40%;
+	left:10%;
+	}
+}

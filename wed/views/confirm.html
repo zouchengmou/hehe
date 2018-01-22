@@ -1,0 +1,108 @@
+
+	<div class="confirm">
+		<header>
+			  <div class="bar bar-header shopping_header" ng-repeat="item in Header">
+				  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+				  <h1 class="title sopping_header_title">{{item.orderSure}}</h1>
+				</div>
+		</header>
+		<div class="confirm_main">
+					 <div class="list confirm_Header" ng-repeat='item in phone'>
+						<a class="item item-icon-left">
+					    		<i class="icon ion-android-phone-portrait"></i>
+									<span>{{item.name}}</span>  
+									<span>{{item.phoneNmuber}}</span>  
+				  		</a>
+				  	<a class="item item-icon-left item-icon-right" ui-sref="address">
+					    <i class="icon ion-ios-location-outline"></i>
+									{{item.address}}
+							<i class="icon ion-ios-arrow-forward"></i>	 
+				  	</a>
+				  </div>
+					<div class="row confirm_list">
+						  <div class="col col-20" ng-repeat='item in list'>
+						  		<div><img ng-src="{{item.listImg}}" alt=""></div>
+									<p>{{item.money}}</p>
+						  </div>
+						  <div class="col col-20" ng-repeat='item in number'>
+							  <span>{{item.four}}</span>
+							  <i class="icon ion-ios-arrow-forward"></i>
+						  </div>
+					</div>
+					<div class="confirm_time_list">
+					     <div class="confirm_pay dis">
+										<div class="fl">
+										    <p>支付配送</p>
+									   </div>
+										<div class="fr">
+										   <span>在线支付</span>
+										   <i class="icon ion-ios-arrow-forward"></i> 
+									  </div>
+							</div>
+							<div class="confirm_pay dis">
+										<div class="fl">
+										    <p>马上发货 </p>
+									   </div>
+										<div class="fr">
+										   <span>9月11日 [今天]12:00-14:00</span>
+									  </div>
+							</div>
+							<div class="confirm_pay dis">
+										<div class="fl">
+										    <p>预计达到  </p>
+									   </div>
+										<div class="fr">
+										   <span>9月13日 [两天后]</span>
+									  </div>
+							</div>
+							 <div class="confirm_pay dis">
+										<div class="fl">
+										    <p>优惠卷</p>
+									   </div>
+										<div class="fr">
+										   <span>无可用</span>
+										   <i class="icon ion-ios-arrow-forward"></i> 
+									  </div>
+							</div>
+							 <div class="confirm_pay dis">
+										<div class="fl">
+										    <p>发票信息</p>
+									   </div>
+										<div class="fr">
+										   <span>个人明细</span>
+										   <i class="icon ion-ios-arrow-forward"></i> 
+									  </div>
+							</div>
+							<div class="card leave_word">
+								  <div class="item item-text-wrap">
+											 给卖家留言：
+
+								  </div>
+							</div>
+							<div class="confirm_pay dis">
+										<div class="fl">
+										    <p>商品金额  </p>
+									   </div>
+										<div class="fr">
+										   <span>￥2993.00</span>
+									  </div>
+							</div> 
+							<div class="confirm_pay dis">
+										<div class="fl">
+										    <p>运费  </p>
+									   </div>
+										<div class="fr">
+										   <span>￥0.00 </span>
+									  </div>
+							</div>                                                 
+				 </div>
+	</div>
+  <div class="footer">
+			<div class="row confirm_footer">
+			  <div class="col col-67">付款：￥2993.00</div>
+			  <div class="col "><button class="button button-full button-assertive">提交订单</button></div>
+			</div>
+  </div>
+</div>
+
+                                                                                                            

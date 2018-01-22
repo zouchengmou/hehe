@@ -1,0 +1,35 @@
+	<div class="rePayment">
+		<header>
+		  <div class="bar bar-header shopping_header">
+			  <h1 class="title sopping_header_title">支付订单</h1>
+			  <a class="button icon-right shopping_header_A">完成</a>
+			</div>
+		</header>
+		<div class="falsePay">
+				<div class="rePayment_middle" ng-repeat="item in Success">
+					<div><img ng-src="{{item.Img}}" alt="" /></div>
+					<h3>{{item.sum}}</h3>
+					<h3>{{item.paySucces}}</h3>
+				</div>
+				<div class="Order_information" ng-repeat="item in send">
+						<h3>{{item.infromant}}</h3>
+						<h4>{{item.contact}}</h4>
+				</div>
+				<div class="rePayment_btn dis" ng-repeat="item in shopping">
+						<button class="fl" ui-sref="layout.index">
+						  	{{item.Continue}}
+						</button>
+						<button class="fr" ui-sref="thressRoutes.myOrder">
+						  	{{item.Order}}
+						</button>
+				</div>
+		</div>
+		<div class="rePayment_footer">
+				<div class="list">
+					  <a class="item item-icon-left" ng-repeat="item in Prompt">
+					    <i class="icon ion-ios-information-outline"></i>
+					    {{item in safe}}
+					  </a>
+				</div>
+		</div>
+	</div>

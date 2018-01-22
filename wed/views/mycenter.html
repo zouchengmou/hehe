@@ -1,0 +1,52 @@
+
+		<div class="mycenter">
+				<div class="bar bar-header shopping_header" ng-repeat="item in mycenterheader">
+				  <button class="button icon ion-qr-scanner shopping_header_btn"></button>
+				  <h1 class="title sopping_header_title">{{item.header}}</h1>
+				  <a class="button icon-right ion-ios-chatbubble-outline shopping_header_A"></a>
+				</div>
+				<div class="mycenter_main">
+						<div class="banner" ng-repeat="item in banner">
+								<div class="banner_big_img"><img ng-src="{{item.bannerBigImg}}"></div>
+								<div class="banner_small_img"><img ng-src="{{item.bannersmallImg}}"></div>
+								<div class="banner_layer">
+									 <ul class="dis" ng-repeat="item in bannerList">
+									 		<li>{{item.name}}</li>
+									 		<li>
+									 			<p>{{item.Record}}</p>
+									 			<p>{{item.buyNumber}}</p>
+				   						</li>
+									 		<li>
+									 			<p>{{item.Collection}}</p>
+									 			<p>{{item.CollectionNumber}}</p>
+									 		</li>
+									 		<li>
+									 			<p>{{item.seeing}}</p>
+									 			<p>{{item.seeingNumber}}</p>
+									 		</li>
+									 </ul>
+								</div>
+						</div>
+						<div class="mycenter_product_list">
+									<div class="row">
+										  <div class="col col-25" ng-repeat="item in list track by $index">
+										  		<div class="tabs-icon-top" >
+														  <a class="tab-item" ui-sref="{{item.url}}">
+														    <i class="{{item.icon}}"></i>
+														    {{item.wait}} 
+														  </a>
+													</div>
+										  </div>
+										 
+									 </div>
+						</div>
+						<div class="list mycenter_footer" ng-repeat="item in data" ui-sref="{{item.url}}">
+						  <a class="item item-icon-left item-icon-right">
+						    <i class="{{item.icon}}"></i>
+						    {{item.myOrder}}
+						    <i class="{{item.backIcon}}"></i>
+						  </a>
+						</div>
+			
+				</div>
+		</div>

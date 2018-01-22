@@ -1,0 +1,61 @@
+ .shopping_header{
+	background-color: #028173;
+}
+.shopping_header_btn{
+	background-color: #028173;
+	color: #fff;
+}
+.shopping_header_A{
+	background-color: #028173;
+	color: #fff;
+}
+.sopping_header_title{
+	color: #fff;
+}
+.Logistics .Logistics_main{
+	margin-top: 44px;
+}
+.Logistics .Logistics_main .address{
+	text-align: center;
+	background-color: #028173;
+	color: #fff;
+}
+.Logistics .Logistics_main .Logistics_img{
+	width: 100%;
+}
+.Logistics .Logistics_main .Logistics_img>img{
+	width:100%;
+}
+.Logistics .Logistics_main .Logistics_adress{
+	margin-top: 40px;
+}
+.Logistics .Logistics_main .Logistics_one{
+	width:15%;
+	height:60px;
+	border-right:1px solid #028173;
+	display: inline-block;
+	position: relative;
+}
+.Logistics .Logistics_adress .Logistics_one_round{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	background-color: #028173;
+	position: absolute;
+	top: 25%;
+	right:-15px;
+
+}
+.Logistics .Logistics_adress .Logistics_adress_list{
+	height:60px;
+}
+.Logistics .Logistics_main .Logistics_two{
+	text-align: center;
+	width: 85%;
+	float: right;
+	margin-top: 10px;
+}
+
+.Logistics .Logistics_main .Logistics_two p{
+	margin:0;
+}

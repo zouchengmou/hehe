@@ -1,0 +1,31 @@
+angular.module('app')
+	.controller('mycouponController',['$scope',function($scope){
+		$scope.mycoupon = [
+		{
+			mycouponHeader:'我的优惠券'
+		}
+		];
+		$scope.mycoupon_list = [
+		{
+			mycouponImg:'./images/mycoupon1.png',
+			term:'12-28号前买满100元',
+			return:'返现20元',
+			returnAlipay:'直接返现到支付宝',
+			ImmediateUse:'立刻使用'
+		},
+		{
+			mycouponImg:'./images/mycoupon2.png',
+			term:'12-28号前买满500元',
+			return:'返现30元',
+			returnAlipay:'直接返现到支付宝',
+			ImmediateUse:'立刻使用'
+		},
+		{
+			mycouponImg:'./images/mycoupon3.png',
+			term:'12-28号前买满1000元',
+			return:'返现50元',
+			returnAlipay:'直接返现到支付宝',
+			ImmediateUse:'立刻使用'
+		}
+		]
+	}])

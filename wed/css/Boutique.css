@@ -1,0 +1,103 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+.index_header_color{
+	background-color: #028173!important;
+}
+.index_header{
+	padding: 0 10px;
+    height: 28px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+/*banner*/
+
+.index .index_main{	
+	margin-bottom: 50px;
+	margin-top: 44px;
+}
+/*banner下列表*/
+.index .index_main .index_product_list{
+	width:100%;
+	padding:10px;
+	border-bottom: 1px solid #eeeeee;
+}
+.index .index_product_list img{
+	margin: 0 auto;
+	width:50%;
+}
+.index .index_product_list p{
+	margin-top: 5px;
+	text-align: center;
+	color: #6a6c6f;
+	letter-spacing: 2px;
+}
+/*热销电器*/
+
+
+.index .Soybean_machine{
+	font-size: 12px;
+}
+.index .Health_product_text span{
+	display: inline-block;
+	color: #f44a60;
+}
+.index .Health_product_text .product_buyBox{
+	width:90%;
+	text-align: center;
+	background-color: #ff314c;
+	border:1px solid #ff314c;
+	color: #fff;
+	border-radius: 6px;
+	height: 22px;
+  margin: 0 auto;
+}
+/*全自动化*/
+.index .index_automation .Health_product{
+	background-color: #c64ad5;
+}
+.index .index_automation .Soybean_machine .index_automation_A{
+	padding:3px;
+	border:1px solid #dcdcdc;
+}
+.index .index_automation .group-buying{
+	color: #4b4647;
+	margin:5px 0;
+}
+.index .index_automation .Discount{
+	width:40px;
+	height:20px;
+	background-color: #ff314c;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	margin:5px 0;
+}
+.index .index_automation .automation_text s{
+	color: #4b4647;
+}
+.index .index_automation .automation_text{
+	width:93%;
+	margin:0 auto;
+}
+.index .index_automation .automation_text>p{
+	text-overflow:ellipsis;
+	overflow: hidden;
+    white-space: nowrap;
+}
+/*热销产品*/
+
+.index .index_Selling .index_Selling_text{
+	width:94%;
+	margin:0 auto;
+}
+.index .index_Selling .index_Selling_text p{
+	text-overflow:ellipsis;
+	overflow: hidden;
+    white-space: nowrap;
+}
+.index_footer_color{
+	background-color: #48d7cd;
+}

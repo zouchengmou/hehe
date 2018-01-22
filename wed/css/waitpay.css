@@ -1,0 +1,36 @@
+.waitpay .waitpay_main{
+	margin-top: 94px;
+}
+.waitpay .waitpayNumber{
+	margin-top: 10px;
+	width:100%;
+}
+.waitpay .waitpay_list .money{
+	width:100%;
+}
+.waitpay .waitpay_list .money>.goods_sum{
+	color: #f22f4f;
+}
+.waitpay .waitpay_list .money>.goods_number{
+	color: #028173;
+}
+.waitpay .waitpay_list .waitpay_total{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.waitpay .waitpay_list .waitpay_total h3{
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 40px;
+}
+.waitpay .waitpay_list .waitpay_total>button{
+	width:30%;
+	height: 50px;
+	font-size: 20px;
+	background-color: #028173;
+}
+.waitpay .waitpayNumber h5{
+	margin:0 15px;
+}

@@ -1,0 +1,38 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+
+.comment .comment_main{
+	margin-top: 44px;
+}
+.comment .comment_main .comment_star h2{
+	margin-top: 10px;
+}
+.comment .comment_main .comment_star i{
+	font-size: 20px;
+	color: #868787;
+	margin-top: 10px;
+}
+.comment .comment_frame{
+	position: relative;
+}
+.comment .comment_frame textarea{
+	border-top:1px solid #000;
+	width:100%;
+	margin:0 auto;
+	height: 125px;
+	color: #868787;
+}
+.comment .comment_btn>button{
+    width: 52px;
+    height: 47px;
+    font-size: 16px;
+    line-height: 42px;
+    padding:5px 10px;
+    border-color: #387ef5;
+    background: 0 0;
+    color: #387ef5;
+    border: 1px solid #387ef5;
+    border-radius:9px;
+}

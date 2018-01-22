@@ -1,0 +1,42 @@
+.classify{
+	height:100%;
+	overflow-y: auto;
+}
+.classify .classify_main{
+	margin-top: 44px;
+}
+.classify .classify_row li{
+	padding:10px 0;
+	color: #0a0a0a;
+	text-align: center;
+}
+.classify .classify_main_right>.Health_product_new{
+	border-top:1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc; 
+}
+@media screen and (max-width: 321px){
+	.classify .classify_main_right>.Health_product_new{
+			font-size: 12px;
+	}
+	.classify .classify_main_right>.Health_product_new>span{
+		margin:0;
+	}
+	.classify .classify_main_right>.Health_product_new>p{
+		margin:0;
+	}
+}
+.classify .classify_main .classify_col{
+	padding:0;
+}
+.classify .classify_main .Health_product{
+	background-color: #48d7cd;
+	width: 60px;
+	margin:0;
+}
+.classify .classify_production{
+	text-align: center;
+}
+.classify .classify_production span{
+	margin:5px 0;
+
+}

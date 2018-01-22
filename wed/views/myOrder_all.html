@@ -1,0 +1,66 @@
+
+	<div class="myOrder_all">
+		<header>
+				    <div class="bar bar-header shopping_header" ng-repeat="item in data">
+							  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+							  <h1 class="title sopping_header_title">全部订单</h1>
+							  <a class="button icon-right ion-ios-chatbubble shopping_header_A"></a>
+					</div>
+		</header>
+	   <div class="myOrder_all_mian">
+				<div class="myOrder_OrderNumber dis" ng-repeat="item in product_list">
+						<h4 class="fl">{{item.orderNumber}}</h4>
+						<h4 class="fr">{{item.waitDeal}}</h4>
+				</div>
+				<div class="myOrder_all_list list">
+						<a class="item item-thumbnail-left" ng-repeat="item in myOrder_all track by $index">
+					      <img ng-src="{{item.orderImg}}">
+					      <h2>{{item.pot}}</h2>
+					      <div>
+									<span>{{item.furnace}}</span>
+					      </div>
+					      <div class=" dis money">
+										<span class="goods_sum">{{item.money}}</span>
+										<span class="fr goods_number">{{item.number}}&nbsp;&nbsp;</span>
+					      </div>
+					      <div class="cancel_order">
+										<div class="fl">
+												<span class="mar" ng-click="remove(index)">{{item.delete}} </span>
+												<div class="icon ion-ios-trash-outline dis" ng-click="remove(index)"></div>
+										</div>
+		  							<div class="fr myOrder_all_row">
+												<p>{{item.send}}</p>
+		  							</div>
+					      </div>
+			   		 </a>
+				</div>
+				<div class="myOrder_total" ng-repeat="item in total">
+						<h3>{{item.all}}</h3>
+						<h3>{{item.money}}</h3>
+						<button class="button button-small button-assertive fr" ui-sref="thressRoutes.confirm">{{item.sure}}</button>
+				</div>
+				<div class="myOrder_OrderNumber dis" ng-repeat="item in orderNumber">
+						<h4 class="fl">{{item.number}}</h4>
+						<h4 class="fr">{{item.comfin}} </h4>
+				</div>
+				<div class="myOrder_complete" ng-repeat="item in complete">
+						<div class="list myOrder_production_list ">
+						    <a class="item item-thumbnail-left dis" >
+						      <img ng-src="{{item.completeImg}}">
+						      <h2>{{item.pot}}</h2>
+						      <p>{{item.furnace}}</p>
+						      <span class="fl">{{item.money}}</span>
+						      <span class="fr">{{item.free}}</span>
+						      <span class="fl">{{item.number}} </span>
+						      <span class="fr">{{item.status}}</span>
+						    </a>
+								<div class="row myOrder_shopping">
+								  <div class="col col-33"><h5>{{item.next}}</h5></div>
+								  <div class="col col-33"><button class="button button-small button-full button-assertive" ui-sref="Logistics">{{item.seeing}}</button></div>
+								  <div class="col col-33"><button class="button button-small button-full button-assertive">{{item.sure}}</button></div>
+								</div>
+						</div>
+				</div>
+		</div>
+	</div>
+                               

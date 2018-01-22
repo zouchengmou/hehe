@@ -1,0 +1,10 @@
+.setting_number .setting_numberMain{
+	margin-top: 50px;
+}
+.setting_number .setting_numberMain>div{
+	width:100%;
+}
+.setting_number .setting_numberMain i{
+	padding: 0;
+	font-size: 30px;
+}

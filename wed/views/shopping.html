@@ -1,0 +1,69 @@
+<div class="shopping">
+		<div class="bar bar-header shopping_header" ng-repeat="item in shoppingHeader">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.car}}</h1>
+			  <a class="button icon-right ion-ios-chatbubble-outline shopping_header_A">{{item.write}}</a>
+		</div>
+		<div class="shopping_container">
+				<div class="Health_product_new" ng-repeat="item in new">
+			 			<div class="Health_product dis">{{item.send}}</div>
+			 			<span>{{item.freeSend}}</span>
+			 			<p>{{item.follow}}</p>
+			 	</div>
+
+					<div class="shopping_production">
+							<div class="row" ng-repeat="item in product">
+									<div class="col col-10 shopping_check">
+									 	<label>
+												<input type="checkbox" ng-checked="selectAll" ng-model="product.state">
+										</label>
+									</div>
+									<div class="col">
+										<ion-list>
+												<div class="ion-list">
+														<a class="item item-thumbnail-left shopping_modern">
+													      <img ng-src="{{item.images}}">
+													      <h2>{{item.pot}}</h2>
+													       <p>{{item.famliy}}</p>
+													      <p>{{item.Guarantee}}</p>
+													      <div class="shopping_number">
+															      <span>￥{{item.money}}</span>							  
+												 						<span>{{item.number}}</span>
+												 						<span ng-click="reduce(item)">{{item.dele}}</span>
+												 						<input disabled="true" type="text" name="" ng-model="item.sum" ng-value="{{item.sum}}">
+												 						<span ng-click="added(item)">{{item.add}}</span>
+										 						</div>
+												    </a>
+												</div>
+										</ion-list>
+									</div>
+							</div>
+					</div>
+
+
+
+				<div class="shopping_total" ng-repeat="item in both">
+						<div class="row">
+								<div class="col col-20">
+									<label>
+										<input type="checkbox" class="shopping_footer" ng-model="selectAll" ng-click="all(selectAll)">
+									</label>
+										<span class="shopping_footer">{{item.all}}</span>
+								</div>
+								<div class="col">
+										<p class="shopping_footer">{{total()}}</p> 
+								</div>
+								<div class="col">
+										<button ng-disabled="!selectAll">{{number()}}</button>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+
+ <ion-item ng-repeat="item in items" class="item-thumbnail-left">
+
+ 
+
+
+ 

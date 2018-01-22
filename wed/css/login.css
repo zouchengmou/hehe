@@ -1,0 +1,39 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+.login .login_main{
+	padding-top: 44px;
+}
+.login .login_main .banner{
+	width:25%;
+	margin:20px auto;
+
+}
+.login .index_row{
+	padding:3px;
+}
+.login .login_main .login_user>label{
+	border:1px solid #8c8c8c;
+}
+.login .login_main .login_user>.login_label{
+	margin-bottom: 20px;
+}
+.login .login_main .login_user>span{
+	margin: 5px;
+	color: #028173;
+}
+.login .login_main .login_user>button{
+	background-color: #028173;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 8px;
+}
+.login .login_main .login_user>p{
+	text-align: center;
+	color:  #028173;
+}
+.login .login_main .login_footer img{
+	width:40%;
+	margin:0 auto;
+}

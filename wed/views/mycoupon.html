@@ -1,0 +1,26 @@
+
+	<div class="mycoupon">
+		 <div class="bar bar-header shopping_header" ng-repeat="item in mycoupon">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.mycouponHeader}}</h1>
+		</div>
+		<div class="mycoupon_main">
+			<div class="row" ng-repeat="item in mycoupon_list">
+				  <div class="col col-67">
+					  <div class="mycoupon_list">
+					  	  <img ng-src="{{item.mycouponImg}}" alt="">
+					  	  <div class="mycoupon_text">
+						  	  <h4>{{item.term}}</h4>
+						  	  <h3>{{item.return}}</h3>
+						  	  <h4>{{item.returnAlipay}}</h4>
+					  	  </div>
+					  </div>
+				  </div>
+				  <div class="col">
+						<div class="mycoupon_use">
+							<p>{{item.ImmediateUse}}</p>
+						</div>
+				  </div>
+			</div>
+		</div>
+	</div>

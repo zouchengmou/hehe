@@ -1,0 +1,32 @@
+.seeing .seeing_dele{
+	width:100%;
+}
+.seeing .seeing_dele button{
+	background-color: #028173;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.seeing_main{
+	margin-top: 44px;
+}
+.seeing .money{
+	margin-top: 5px;
+}
+.seeing .money .goods_sum{
+	color: #fc373a;
+	margin-right: 20px;
+}
+.seeing .seeing_likes>span{
+	width:80px;
+	color: #fff;
+	height:20px;
+	background-color: #fc373a;
+	border-radius: 6px;
+}
+.seeing .seeing_likes{
+	color:#fc373a;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5px;
+}

@@ -1,0 +1,10 @@
+
+ <div class="lead" ng-controller="leadController">
+	<ion-content>
+			<ion-slide-box>
+				<ion-slide ng-repeat="item in data track by $index">
+					<img class="full-image" ng-src="{{item.img}}" /> 
+				</ion-slide>
+			</ion-slide-box> 
+	</ion-content>
+</div>

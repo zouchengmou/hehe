@@ -1,0 +1,43 @@
+
+	<div class="pay">
+		<header ng-repeat="item in payHeader">
+		  <div class="bar bar-header shopping_header">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.header}}</h1>
+			</div>
+		</header>
+		<div class="pay_money">
+	     <div class="pay_list list">
+							 <a class="item" ng-repeat="item in payProduct">
+							   <span>{{item.product}}</span>
+							    <span class="item-note">{{item.money}}</span>
+						  </a>
+			</div>
+				<div class="pay_sum list tatol">
+							<a class="item" ng-repeat="item in tatol">
+							  	<span>{{item.tatolSum}}</span> 
+							    <span class="item-note">{{item.money}}</span>
+						  </a>
+				</div>
+				<div class="pay_method list">
+					  <a class="item item-thumbnail-left" ng-repeat="item in pay_method">
+				      <img ng-src="{{item.payImg}}">
+				      <h2>{{item.Alipay}}</h2>
+				      <p>{{item.newPerson}}</p>
+				      <span class="fr"></span>
+				      <div class="pay_groom">
+									<span>{{item.push}}</span>
+									<span>{{item.return}}</span>
+				      </div>
+				    </a>
+				</div>
+		</div>
+		<div class="pay_footer" ng-repeat="item in safe_pay">
+				<div class="safe_pay">
+							<div class="safe_pay_txt">{{item.safe}}</div>
+				</div>
+				<button class="button button-small button-assertive safe_pay_btn">
+						{{item.srue}}
+				</button>
+		</div>
+</div>

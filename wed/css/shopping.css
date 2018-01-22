@@ -1,0 +1,84 @@
+html,body{
+	width:100%;
+	height:100%;
+	overflow-y: auto;2
+}
+
+/*主体*/
+.shopping .shopping_container{
+	margin-top: 44px;
+	margin-bottom: 90px;
+}
+.shopping .Health_product_new>span{
+	font-size: 12px;
+}
+.shopping .shopping_production a>h2{
+	width:100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.shopping .shopping_production .shopping_number{
+	margin-top: 10px;
+}
+.shopping .shopping_production .shopping_number span:nth-child(1){
+	margin-right: 5px;
+	color: #fb8792;
+}
+.shopping .shopping_number span:nth-child(3){
+	border:1px solid #000;
+	width: 14px;
+    height: 14px;
+	text-align: center;
+	line-height: 10px;
+}
+.shopping .shopping_number span:last-child{
+	border:1px solid #000;
+	width: 14px;
+    height: 14px;
+	text-align: center;
+	line-height: 10px;
+}
+.shopping .shopping_number input{
+	width:20px;
+	height:15px;
+	padding:1px 0;
+	border:1px solid #000;
+	display: inline-block;
+	text-align: center;
+}
+.shopping .shopping_production .shopping_modern{
+	width:92%;
+}
+.shopping .shopping_production .shopping_piont{
+	width:30px;
+	height:30px;
+
+}
+.shopping .shopping_production .shopping_check input{
+	width:15px;
+	height: 15px;
+	margin:50px auto;
+}
+
+.shopping .shopping_total{
+	position: fixed;
+	bottom: 49px;
+	left: 0;
+	width:100%;
+	background-color: #fff;
+	z-index: 9999;
+}
+.shopping .shopping_total button{
+	height: 40px;
+	margin: 0;
+	width:100%;
+	background-color: #d4360c;
+}
+.shopping .shopping_total .shopping_footer{
+	margin-top:10px;
+}
+.shopping .shopping_total p{
+	color: #d4360c;
+}
+

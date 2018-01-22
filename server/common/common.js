@@ -1,0 +1,50 @@
+module.exports = {
+	/*
+		loginStatus:0;表示用户在线，
+		loginStatus:1;表示用户离线，
+	*/
+	protocal:{
+		agree:101
+	},
+	register:{
+		success:{
+			msg:'注册成功',
+			statusCode:200
+		},
+		info:{
+			msg:"该手机已被注册",
+			statusCode:201
+		},
+		error:{
+			msg:"手机号码已被注册",
+			statusCode:201
+		}
+		
+
+	},
+	login:{
+			success:{
+				msg:"登录成功",
+				statusCode:300
+			},
+			info:{
+				msg:'用户名或密码错误',
+				statusCode:301
+			},
+			error:{
+				msg:'登录失败',
+				statusCode:302
+			}
+			
+		},
+		loginStatu:{
+			online:{
+				msg:'用户已在线',
+				statusCode:1
+			},
+			offline:{
+				msg:'用户离线',
+				statusCode:0
+			}
+		}
+}

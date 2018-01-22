@@ -1,0 +1,67 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+.pay .pay_money{
+	margin-top: 50px;
+}
+.pay .pay_money .pay_list a{
+	border:0;
+	white-space: normal;
+	padding: 3px 10px;
+}
+.pay .pay_money .pay_sum>a:last-child{
+	background-color: #028173;
+	color: #fff;
+}
+.pay .pay_money .pay_sum a:nth-child(2)>span{
+	color: #f41c26;
+}
+.pay .pay_method a>span{
+	width: 30px;
+    height: 30px;
+    border: 1px solid #4d4c4c;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    background: url('../images/icon/icon.png') no-repeat;
+}
+.pay .tatol>a{
+	white-space: normal;
+}
+.pay .pay_method a:nth-child(1)>p{
+	color: #f41c26;
+}
+.pay .pay_method .pay_groom>span{
+	width:30px;
+	height:20px;
+	font-size: 12px;
+	background-color: #f41c26;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	margin-left: 10px;
+
+}
+.pay .pay_footer .safe_pay{
+	width:100%;
+	position: relative;
+	border-bottom: 1px solid #028173;
+	margin-top:30px;
+}
+.pay .pay_footer .safe_pay>.safe_pay_txt{
+	width: 40%;
+	font-size: 12px;
+	position: absolute;
+	top: -10px;
+	left:30%;
+	background:#fff;
+	color: #4d4c4c;
+	text-align: center;
+}
+.pay .pay_footer>.safe_pay_btn{
+	width:90%;
+	margin-top: 30px;
+	margin-left: 5%;
+}

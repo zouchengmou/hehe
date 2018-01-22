@@ -1,0 +1,50 @@
+html,body{
+	height:100%;
+	overflow-y: auto;
+}
+.mycenter{
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
+.mycenter .shopping_header_btn::before{
+	font-size: 30px!important;
+}
+.mycenter .shopping_header_A::before{
+	font-size: 30px!important;
+}
+.mycenter .banner{
+	position: relative;
+}
+
+.mycenter .banner .banner_small_img{
+	width:25%;
+	position: absolute;
+	left: 35%;
+	top: 5%;
+}
+.mycenter .banner .banner_small_img>img{
+	width:100%;
+}
+.mycenter .banner .banner_layer{
+	width:90%;
+	background: rgba(100,100,100,0.5);
+	position: absolute;
+	bottom: 5%;
+	left:5%;
+	font-size: 12px;
+}
+.mycenter .banner_layer>ul{
+	width:100%;
+}
+.mycenter .banner_layer>ul>li{
+	width:33.3333%;
+	float: left;
+	text-align: center;
+}
+.mycenter .banner_layer>ul>li:first-child{
+	width:100%;
+	text-align: center;
+}
+.mycenter .mycenter_footer{
+	margin:0;
+}

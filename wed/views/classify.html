@@ -1,0 +1,38 @@
+
+	<div class="classify">
+				<ion-header-bar class="bar-balanced index_header_color" ng-repeat='item in index_header'>
+					<button class="button icon button-clear ion-qr-scanner"></button>
+					<div class="bar bar-header item-input-inset index_header">
+					 	 <label class="item-input-wrapper">
+						    <i class="icon ion-ios-search placeholder-icon"></i>
+						    <input type="text" placeholder="{{item.placeholder}}">
+						  </label> 
+					</div>
+					<button class="button icon button-clear ion-ios-chatbubble-outline"></button>
+			</ion-header-bar>
+			<div class="classify_main">
+					<div class="row classify_row">
+						<div class="col col-25 classify_col">
+							<div ui-view></div>
+						</div>
+						<div class="col classify_main_right classify_col">
+								<div class="classify_banner" ng-repeat="item in data">
+										<img src="{{item.dataImg}}" alt="">
+								</div>
+								<div class="Health_product_new" ng-repeat="item in Health_products">
+									 			<div class="Health_product dis">{{item.first}}</div>
+									 			<span>{{item.hot}}</span>
+									 			<p>{{item.fllown}}</p>
+								</div>
+								<div class="classify_production_list">
+										<div class="row row-wrap classify_production" ng-repeat='item in list'>
+												<div class="col col-33"><img ng-src="{{item.furnaceImg}}" alt=""><span>{{item.furnace}}</span></div>
+												<div class="col col-33"><img ng-src="{{item.HealthCareImg}}" alt=""><span>{{item.HealthCare}}</span></div>
+												<div class="col col-33"><img ng-src="{{item.beanImg}}" alt=""><span>{{item.bean}}</span></div>
+										</div>
+								</div>
+						</div>
+					</div>
+				</div>
+	</div>
+

@@ -1,0 +1,26 @@
+<div class="edit">
+	<header>
+	 	 	<div class="bar bar-header shopping_header" ng-repeat="item in address_header">
+			  <button class="button icon ion-chevron-left shopping_header_btn"></button>
+			  <h1 class="title sopping_header_title">{{item.cutOff}}</h1>
+			</div>
+	</header>
+	<div class="list add_address" ng-repeat="item in address_add">		  
+
+			<label class="item item-input item-stacked-label">
+			    <span class="input-label">{{item.name}}</span>
+			    <input type="text" placeholder="{{item.last_name}}">
+		  	</label>
+		  <label class="item item-input item-stacked-label">
+			    <span class="input-label">{{item.phone}}</span>
+			    <input type="text" placeholder="{{item.real}}">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+			    <span class="input-label">{{item.address_house}}</span>
+			    <input type="text" placeholder="{{item.real_adderss}}">
+		  </label>
+		  <input type="checkbox">
+		  <span>{{item.adderss_default}}</span>
+		  <button class="button button-full button-positive">确定</button>
+	</div>
+</div>
